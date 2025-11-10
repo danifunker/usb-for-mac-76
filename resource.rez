@@ -1,0 +1,1 @@
+type 'sysz' {	longint;};resource 'sysz' (0, "256 Kb") {	256 * 1024};

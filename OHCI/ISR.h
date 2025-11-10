@@ -1,0 +1,1 @@
+#ifndef OHCI_ISR_H#define OHCI_ISR_H#include <Devices.h>#include <Interrupts.h>#include ":OHCI:OHCI.h"InterruptMemberNumber OHCI_ISR_Handler(	InterruptSetMember 	member,	void *				refCon,	UInt32				intCount);OSErr OHCI_InstallISR(OHCI_Device *ohci, RegEntryID regEntry, ISTProperty istMembers);#endif
