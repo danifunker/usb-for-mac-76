@@ -1,0 +1,22 @@
+NEC USB 2.0 cards with USB 1.1 are always:
+VEN: 1033 
+PID: 0035
+
+(This codebase already supports that)
+
+EHCI (USB 2.0) PCI ID for NEC cards:
+VEN: 1033
+PID: 00e0
+
+Apple
+G4 QuickSilver
+
+"KeyLargo USB"
+VEN: 106b
+PID: 0019
+
+Orange PCI USB/FireWire Card
+VEN: 11c1
+PID: 5802
+
+
